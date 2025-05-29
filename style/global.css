@@ -32,26 +32,11 @@ body{
 h1,h2{
     color: var(--text-primary);
 }
-main{
-    overflow: auto;
-    padding: 4rem;
-    
-     .main-container{
-     max-width: 33rem;   
-     margin-left: auto;
-    }
 
+img{
+    max-width: 100%;
+    height: auto;
 }
-
-aside{
-    background-color: var(--surface-secondary);
-    padding: 4rem;
-
-    & .aside-container{
-        max-width: 31rem;
-    }
-}
-
 
 
 
