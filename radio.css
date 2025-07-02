@@ -26,7 +26,7 @@ label + .radio-wrapper{
     inset: 0;
   }
   .radio-image{
-    background-image: url(/assets/image/icons/selected-1.svg);
+    background-image: url(selected-1.svg);
     
     width: 1.5rem;
     height: 1.5rem;
@@ -39,13 +39,13 @@ label + .radio-wrapper{
   &:hover,&:focus-within{
     border: 1px solid var(--stroker-highlight);
     & .radio-image{
-      background-image: url(/assets/image/icons/selected-2.svg);
+      background-image: url(selected-2.svg);
     }
   }
   &:has(:checked){
     border: 2px solid var(--stroker-highlight);
     & .radio-image{
-      background-image:url(/assets/image/icons/selected-3.svg) ;
+      background-image:url(selected-3.svg) ;
     }
   }
 }

@@ -1,4 +1,4 @@
-@import url(/style/fields/index.css);
+@import url(index.css);
 
 form{
     margin-top: 3rem;
@@ -17,6 +17,12 @@ legend{
 
 fieldset + fieldset {
     margin-top: 3rem;
+}
+
+.action-wrapper{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
 }
 
 
